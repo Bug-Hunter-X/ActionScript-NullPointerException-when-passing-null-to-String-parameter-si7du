@@ -1,0 +1,3 @@
+This repository demonstrates a common error in ActionScript 3: a NullPointerException caused by passing a null value to a function expecting a String parameter. The bug.as file contains the erroneous code, while bugSolution.as provides the corrected version.
+
+The issue stems from ActionScript's strict type system.  When a function expects a String and receives null, it throws an error. Solutions include input validation or using a more flexible data type.
